@@ -5,8 +5,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px;
+  margin-top: 25px;
+  padding: 20px var(--horizontal-space);
   box-sizing: border-box;
+  background-color: white;
 }
 
 .screen-header__title {
