@@ -9,6 +9,7 @@
   padding: 20px var(--horizontal-space);
   box-sizing: border-box;
   background-color: white;
+  z-index: 9;
 }
 
 .screen-header__title {
@@ -18,4 +19,12 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+#screen-header__icons__cog {
+  position: relative;
+}
+
+#screen-header__icons__cog__new__update {
+  left: 0px;
 }

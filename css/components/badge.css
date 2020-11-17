@@ -9,3 +9,14 @@
   color: white;
   font-weight: 600;
 }
+
+.new__update {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 32px;
+  bottom: 25px;
+}
