@@ -26,5 +26,20 @@
 }
 
 #screen-header__icons__cog__new__update {
-  left: 0px;
+  left: 0;
+  top: 1px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog {
+  animation: rotateCog 3s linear infinite;
 }
